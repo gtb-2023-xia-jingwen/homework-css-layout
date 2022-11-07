@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: Arial, Helvetica, "微软雅黑";
     font-size: 1rem;
     color: #343434;
     background-color: #e9ebee;
@@ -20,4 +21,104 @@ ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+
+.banner {
+    background-color: #415a93;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+}
+
+.left-flex {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-border {
+    /* border: 1px solid red; */
+    background-color: white;
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+
+.content-item {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 90%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+}
+
+.register-button {
+    color: #fff;
+    background-color: #65b444;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, "微软雅黑";
+}
+
+.join-facebook {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content h2 {
+    font-size: 28px;
+}
+
+.main-content > p {
+    font-size: 20px;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content-item p {
+    color: #d5d5d4;
+}
+
+.content-item button {
+    color: #fff;
+    background-color: #415a93;
+    border: none;
+    font-family: Arial, Helvetica, "微软雅黑";
+    width: 55px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 3px;
 }
